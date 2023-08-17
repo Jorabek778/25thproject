@@ -59,7 +59,7 @@ const Adduser = (props) => {
 
     
   )
-  console.log(Class.input);
+ 
 }
 
 export default Adduser

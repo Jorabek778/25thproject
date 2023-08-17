@@ -7,7 +7,7 @@ const UserList = (props) => {
    <Cart className={classes.users}>
       <ul>
       {props.newItem.map((item)=>{
-        return <li> {item.name} {item.age} </li>
+        return <li key={item.name}> {item.name} {item.age} </li>
       })}
       </ul>
    </Cart>
